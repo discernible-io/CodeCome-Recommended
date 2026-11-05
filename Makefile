@@ -301,6 +301,7 @@ itemdb-reset: env-check
 	rm -rf itemdb/evidence/CC-*
 	rm -f itemdb/reports/*.md
 	rm -f itemdb/findings/PENDING/CC-*.md
+	rm -f itemdb/findings/NEEDS_VALIDATION/CC-*.md
 	rm -f itemdb/findings/CONFIRMED/CC-*.md
 	rm -f itemdb/findings/EXPLOITED/CC-*.md
 	rm -f itemdb/findings/REJECTED/CC-*.md
@@ -311,6 +312,7 @@ itemdb-reset: env-check
 	touch itemdb/evidence/.gitkeep
 	touch itemdb/reports/.gitkeep
 	touch itemdb/findings/PENDING/.gitkeep
+	touch itemdb/findings/NEEDS_VALIDATION/.gitkeep
 	touch itemdb/findings/CONFIRMED/.gitkeep
 	touch itemdb/findings/EXPLOITED/.gitkeep
 	touch itemdb/findings/REJECTED/.gitkeep
